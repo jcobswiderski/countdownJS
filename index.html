@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="countdown">
+        <div class="countdown__header">
+            <input type="datetime-local" id="countdown__input">
+            <button id="countdown__button"></button>
+        </div>
+        <div class="countdown__message">
+            <h2>Czas minął!</h2>
+        </div>
+        <div class="countdown__timer">
+            <div id="countdown__timer-days">
+                <div class="countdown__timer-label">Days</div>
+                <h3>24</h3>
+            </div>
+            <div id="countdown__timer-hours">
+                <div class="countdown__timer-label">Hours</div>
+                <h3>11</h3>
+            </div>
+            <div id="countdown__timer-minutes">
+                <div class="countdown__timer-label">Minutes</div>
+                <h3>24</h3>
+            </div>
+            <div id="countdown__timer-seconds">
+                <div class="countdown__timer-label">Seconds</div>
+                <h3>44</h3>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
